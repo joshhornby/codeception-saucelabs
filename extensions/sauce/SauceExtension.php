@@ -47,8 +47,12 @@ class SauceExtension extends \Codeception\Platform\Extension
             $build = date('d-M-Y');
         }
         $metadata = $this->gatherMetaData($test);
-        $s->updateJob($newestTest['id'], array('name' => $test->getName(), 'build' => $build, 'tags' => $metadata['tags'],
-        'custom-data' => $metadata['custom-data']));
+        $s->updateJob($newestTest['id'], array(
+            'name' => $test->getName(),
+            'build' => $build,
+            'tags' => $metadata['tags'],
+            'custom-data' => $metadata['custom-data'])
+        );
     }
 
     protected function getCorrespondingSaucelabsJob()
