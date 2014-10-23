@@ -1,7 +1,7 @@
 Codeception: Sauce with Meta
 ============================
 
-Based on [this repo]('https://github.com/psychomieze/sauceExtension') and [this repo]('https://github.com/neam/codeception-saucelabs-metadata'), this pulls both the functionality into one.
+Based on https://github.com/psychomieze/sauceExtension and https://github.com/neam/codeception-saucelabs-metadata, this pulls both the functionality into one.
 
 ```yml
 extensions:
