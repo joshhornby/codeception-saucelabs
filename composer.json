@@ -1,0 +1,28 @@
+{
+    "name": "josh-hornby/sauce",
+    "description": "Codeception extension to support automated testing via sauce labs with meta data",
+    "prefer-stable": true,
+    "license": "MIT",
+    "type": "codeception-extension",
+    "keywords": ["codeception", "saucelabs", "selenium"],
+    "authors": [
+        {
+            "name": "Josh Hornby",
+            "email": "hello@joshhornby.co.uk",
+            "homepage": "http://joshhornby.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "sauce/sausage": "~0.11"
+    },
+    "require-dev": {
+        "codeception/codeception": "~2.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeception\\Extension\\": "extensions/sauce/"
+        }
+    }
+}

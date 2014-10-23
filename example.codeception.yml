@@ -1,0 +1,7 @@
+extensions:
+ config:
+   Codeception\Extension\SauceExtension:
+     username: 'username'
+     accesskey: 'accesskey'
+#    build: 'Local Test'
+
