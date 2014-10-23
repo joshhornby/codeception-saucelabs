@@ -8,7 +8,11 @@ use Sauce\Sausage\SauceAPI;
 /**
  * Class SauceExtension
  *
- * @author Josh Hornby <mail@susanne-moog.de>
+ * Based on the work in these repos:
+ * https://github.com/psychomieze/sauceExtension
+ * https://github.com/neam/codeception-saucelabs-metadata
+ *
+ * @author Josh Hornby <hello@joshhornby.co.uk>
  * @license MIT
  */
 class SauceExtension extends \Codeception\Platform\Extension
